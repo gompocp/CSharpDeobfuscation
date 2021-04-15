@@ -113,7 +113,7 @@ namespace CSharpDeobfuscation
 			}
 			return (methodInlineCount, stringDecryptedCount);
 		}
-		private static string DecryptFunction(string input) //Commonly called k
+		private static string DecryptFunction(string input)
 		{
 			StringBuilder stringBuilder = new StringBuilder();
 			foreach (string text in input.Split('A'))
